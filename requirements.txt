@@ -1,0 +1,20 @@
+# Core runtime dependencies for this repository.
+# Install with:
+#   pip install -r requirements.txt
+#
+# flash-attn is intentionally excluded because its environment setup can be
+# cumbersome and is not required for the default lecture workflows.
+
+aac-metrics==0.5.5
+accelerate==1.13.0
+datasets==4.8.4
+evaluate==0.4.6
+matplotlib==3.10.8
+nltk==3.9.4
+peft==0.18.1
+pillow==11.3.0
+pytest==9.0.2
+rich==13.9.4
+torch==2.11.0
+tqdm==4.67.3
+transformers==4.57.6

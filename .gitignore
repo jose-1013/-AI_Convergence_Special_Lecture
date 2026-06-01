@@ -1,0 +1,11 @@
+data/
+model/
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+__pycache__/
+.ipynb_checkpoints/
